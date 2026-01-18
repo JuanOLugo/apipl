@@ -1,0 +1,17 @@
+<mat-toolbar color="primary" class="px-4 flex justify-between border-b border-gray-200">
+
+  <div class="flex items-center gap-3 ">
+    <mat-icon>leak_add</mat-icon>
+    <span class="text-lg font-medium" >{{APP_NAME}}</span>
+  </div>
+  <div *ngIf="showItems" class="hidden md:flex items-center gap-6">
+    <button mat-button>Inicio</button>
+    <button mat-button>Servicios</button>
+    <button mat-button>Contacto</button>
+  </div>
+
+  <button mat-icon-button class="md:hidden">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+</mat-toolbar>

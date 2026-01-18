@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { Auth } from '../services/auth';
-import { APP_NAME } from '../config/app-config';
-import { Toast } from '../services/toast';
+import { Auth } from '../../services/auth';
+import { APP_NAME } from '../../config/app-config';
+import { Toast } from '../../services/toast';
 
 @Component({
   selector: 'app-navbar',

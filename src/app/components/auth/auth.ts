@@ -28,8 +28,6 @@ export class Auth implements OnInit {
     password: ['', [Validators.required, Validators.minLength(8)]],
   });
 
-  constructor() {}
-
   ngOnInit() {}
 
   submit() {
